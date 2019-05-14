@@ -19,10 +19,10 @@ result['count'] = result['count'].str.split(': ').str.get(1)
 result.head()
 result.tail()
 
-# print(result.head())
+print(result.head())
 # print(result.tail())
 # print(result.dtypes)
-print(result['Region Avg IOU'])
+# print(result['Region Avg IOU'])
 
 result['Region Avg IOU'] = pd.to_numeric(result['Region Avg IOU'])
 result['Class'] = pd.to_numeric(result['Class'])
