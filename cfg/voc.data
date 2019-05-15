@@ -1,5 +1,5 @@
 classes=4
-train=/home/yang/yolo_tensorflow/data/KITTI/ImageSets/Layout/train.txt
-valid=/home/yang/yolo_tensorflow/data/KITTI/ImageSets/Layout/test.txt
-names=/home/yang/yolo_tensorflow/data/KITTI/voc.names
+train=/Data1/Data_DL/KITTI/ImageSets/Layout/train.txt
+valid=/Data1/Data_DL/KITTI/ImageSets/Layout/test.txt
+names=/Data1/Data_DL/KITTI/voc.names
 backup=backup
